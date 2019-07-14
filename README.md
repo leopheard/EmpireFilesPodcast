@@ -1,6 +1,6 @@
 #The Empire Files
 =============================
-Kodi video addon for The Empire Files investigative journalism videos
+Kodi audio addon for The Empire Files investigative journalism feed
 
 **Install**
 
