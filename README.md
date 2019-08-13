@@ -1,11 +1,8 @@
 #The Empire Files
 =============================
-Kodi audio addon for The Empire Files investigative journalism feed
+<a href="www.kodi.tv">Kodi</a> / XBMC audio addon for The Empire Files investigative journalism program.<br>
 
-**Install**
+^^^ To install this addon, either use the <a href="https://www.tvaddons.co/github-browser-kodi/">Kodi Github installer</a> addon or save the .zip file downloaded from the 'clone or download' button to somewhere the Kodi can access (e.g. network drive or USB stick). Then on the Kodi, go to addons > install from zip file.<br>
 
-Launch Kodi >> Add-ons >> Package Icon >> Install from Zip<br>
-Or alternatively use the search feature at the top of the main Kodi page, search for the Github installer and install via this app. Search for this repository or this addon name (leopheard or empirefiles)<br>
-
-![alt text](https://raw.githubusercontent.com/leopheard/empirefiles/master/resources/media/icon.jpeg)<br>
-
+<img src="https://raw.githubusercontent.com/leopheard/empirefiles/master/resources/media/icon.jpeg"/>
+<br><a href="http://www.kodi.tv"><img src="https://kodi.tv/sites/default/files/page/field_image/about--devices.jpg">

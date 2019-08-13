@@ -24,15 +24,15 @@ def get_playable_podcast(soup):
     for content in soup.find_all('article'):
         
         try:        
-            link = content.find('divclass=player')
+            link = content.find('audio')
             link = link.get('audiosrc')
             print "\n\nLink: ", link
 
-            title = content.find('class=title')
+            title = content.find('span class=title')
             title = title.get_text()
 
-            desc = content.find('class="addReadMore showlesscontent')
-            desc = desc.get_text()
+#            desc = content.find('class="addReadMore showlesscontent')
+#            desc = desc.get_text()
 
         except AttributeError:
             continue
@@ -40,12 +40,12 @@ def get_playable_podcast(soup):
         item = {
                 'url': link,
                 'title': title,
-                'desc': desc,
+#                'desc': desc,
         }
         
         subjects.append(item) 
     
-    return subjects
+    print subjects
 
 
 def compile_playable_podcast(playable_podcast):
@@ -58,8 +58,8 @@ def compile_playable_podcast(playable_podcast):
         items.append({
             'label': podcast['title'],
             'thumbnail': "https://toppodcast.com/wp-content/uploads/2019/07/52242-600x600bb-85-300x300.png",
-            'path': podcast['url'],
-            'info': podcast['desc'],
+            'path': podcast['audiosrc'],
+#            'info': podcast['desc'],
             'is_playable': True,
     })
 
