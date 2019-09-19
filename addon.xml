@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.theempirefiles" name="The Empire Files Podcasts" version="1.0.0" provider-name="leopheard">
+<addon id="plugin.audio.theempirefiles" name="The Empire Files" version="1.0.0" provider-name="leopheard">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -19,15 +19,14 @@
     <license>The MIT License (MIT)</license>
     <forum></forum>
     <email>leopheard@gmail.com</email>
-    <source>https://github.com/leopheard/plugin.audio.theempirefiles.git</source>
+    <source>https://github.com/leopheard/TheEmpireFiles</source>
     <website>https://www.theempirefiles.tv/</website>
-    <audio_guide></audio_guide>
     <assets>
-        <icon>resources/media/icon.jpeg</icon>
-        <fanart>resources/media/fanart2.jpeg</fanart>
-        <screenshot>resources/media/fanart.png</screenshot>
-        <screenshot>resources/media/screen3.jpeg</screenshot>
-        <screenshot>resources/media/screen2.jpeg</screenshot>
+        <icon>resources/media/icon.jpg</icon>
+        <fanart>resources/media/fanart.jpg</fanart>
+        <screenshot>resources/media/1.jpg</screenshot>
+        <screenshot>resources/media/3.jpg</screenshot>
+        <screenshot>resources/media/2.jpg</screenshot>
     </assets>
   </extension>
 </addon>
